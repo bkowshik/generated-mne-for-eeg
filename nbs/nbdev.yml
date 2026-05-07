@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "generated-mne-for-eeg"
+  site-url: "https://bkowshik.github.io/generated-mne-for-eeg"
+  description: "The Generated Guide to MNE for EEG"
+  repo-branch: main
+  repo-url: "https://github.com/bkowshik/generated-mne-for-eeg"

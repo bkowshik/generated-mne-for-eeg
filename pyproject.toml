@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generated-mne-for-eeg"
+dynamic = ["version"]
+description = "The Generated Guide to MNE for EEG"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Bhargav Kowshik", email = "bhargav.kowshik@gmail.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/bkowshik/generated-mne-for-eeg"
+Documentation = "https://bkowshik.github.io/generated-mne-for-eeg/"
+
+[project.entry-points.nbdev]
+generated_mne_for_eeg = "generated_mne_for_eeg._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "generated_mne_for_eeg.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["generated_mne_for_eeg"]
+
+[tool.nbdev]
