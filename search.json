@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "foo\n\ndef foo(\n    \n):\n\nCall self as a function.",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "generated-mne-for-eeg",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "generated-mne-for-eeg"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "generated-mne-for-eeg",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall generated_mne_for_eeg in Development mode\n# make sure generated_mne_for_eeg package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to generated_mne_for_eeg\n$ nbdev_prepare",
+    "crumbs": [
+      "generated-mne-for-eeg"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "generated-mne-for-eeg",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/bkowshik/generated-mne-for-eeg.git\nor from conda\n$ conda install -c bkowshik generated_mne_for_eeg\nor from pypi\n$ pip install generated_mne_for_eeg\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "generated-mne-for-eeg"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "generated-mne-for-eeg",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1",
+    "crumbs": [
+      "generated-mne-for-eeg"
+    ]
+  }
+]
